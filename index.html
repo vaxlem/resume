@@ -68,6 +68,7 @@
       background-color: #45a049;
     }
     .fa{padding: right 10px}
+  /* h1[hermon]{display: none;} */
 
     @media print {
       .buttons {
@@ -79,7 +80,9 @@
       margin-bottom: 10px;
       font-size: 16px;
       text-transform: uppercase;
-    }}
+    }
+  h1[sel]{display: none;}
+  }
 
   </style>
 </head>
@@ -89,7 +92,8 @@
     <button onclick="window.print()">Print Resume</button>
   </div>
 
-    <h1>Hermon Sel Hammah - Tettey</h1>
+    <h1 sel="true">Hermon Sel Hammah - Tettey</h1>
+    <h1 hermon="true">Hermon Sel <br> Hammah - Tettey</h1>
 
   <div class="resume">
     <!-- Left Column -->
